@@ -1,0 +1,22 @@
+# Task: File Deletion
+# Objective 3.1 - Construct and analyze code segments that perform file I/O
+#
+# Instructions:
+# Use the os module to delete "temp.txt".
+#
+# Expected output:
+# before_delete: True
+# after_delete: False
+import os
+
+# Step 1: Check if "temp.txt" exists
+before_delete = os.path.exists("temp.txt")
+print("before_delete:", before_delete)
+
+# Step 2: Delete "temp.txt"
+if os.path.exists("temp.txt"):
+    os.remove("temp.txt")
+
+# Step 3: Verify "temp.txt" is gone
+after_delete = os.path.exists("temp.txt")
+print("after_delete:", after_delete)
