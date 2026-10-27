@@ -1,3 +1,4 @@
+import io
 """inventory_items = ['Frozen Ham', 'Frozen Turkey', 'Canned Yams', 'Canned Corn', 'Canned Green beans',
              'Canned Carrots', 'Canned Peas', 'Canned Fruit', 'Canned Pumpkin', 'Canned Milk',
              'Instant Mashed Potatoes', 'Potatoes', 'Sugar', 'Flour', 'Cranberry Sauce',
@@ -18,3 +19,6 @@ it will make things faster and easier to read"""
 with open (transactions, 'w') as file:
     transactions = file.write('testing 2 again')
     print('transactions is open')
+
+
+"""main code setup"""
